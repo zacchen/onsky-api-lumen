@@ -1,0 +1,20 @@
+{
+    "name": "zacchen/onsky-api-lumen",
+    "description": "onsky api  with support for Laravel &amp; lumen, based on onesky/api-library-php5",
+    "keywords": ["laravel", "onsky", "i18n"],
+    "homepage": "https://github.com/zacchen/onsky-api-lumen",
+    "license" : "MIT",
+    "require": {
+        "php": ">=5.6.0",
+        "illuminate/support": "^4.0|^5.0",
+        "onesky/api-library-php5": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.0|^5.0|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zacchen\\OneskyApiLumen\\": "src/"
+        }
+    }
+}
